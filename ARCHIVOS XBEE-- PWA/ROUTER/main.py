@@ -39,7 +39,7 @@ while True:
             # Si no hay red o coordinador, esto puede dar error
             print("Fallo al transmitir (¿Esta el Coordinador encendido?)")
         
-        # Esperamos 2 segundos (no satures la red enviando cada 0.1s)
+        # Esperamos 2 segundos (no satures la red enviando cada 0.1s) esto da lata 
         time.sleep(2)
         
     except Exception as e:
